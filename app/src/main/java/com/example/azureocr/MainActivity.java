@@ -26,8 +26,8 @@ import java.io.InputStream;
 public class MainActivity extends AppCompatActivity {
 
     private static final int PICK_IMAGE_REQUEST = 1;
-    private final String azureEndpoint = "https://cmpe277-azure-ocr.cognitiveservices.azure.com/computervision/imageanalysis:analyze/"; // Replace with your Azure endpoint URL
-    private final String subscriptionKey = "03cba197ae7942a998ea35ec2448c7c2"; // Replace with your subscription key
+    private final String azureEndpoint = "url"; // Replace with your Azure endpoint URL
+    private final String subscriptionKey = "key"; // Replace with your subscription key
     private ImageView imageView;
     private TextView tvResults;
     private String selectedImagePath;
